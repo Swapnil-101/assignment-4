@@ -25,7 +25,7 @@ const data = [
 const Second = () => {
     return (
         <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', minHeight: '100vh' }}>
-            <div className='text-center md:w-[45rem] pt-[10rem]'>
+            <div className='text-center md:w-[45rem] 2xl:pt-[10rem] md:pt-[5rem]'>
                 <div className=''>
                     <p className="font-bold text-4xl mb-10">Choose Who Would You <br />Like To Be</p>
                 </div>

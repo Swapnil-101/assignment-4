@@ -8,11 +8,11 @@ const Pform = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <form className="px-6 py-8 bg-white rounded-[2rem] shadow-md">
                 <div className="text-center mb-6">
-                    <img src={logo} alt="Logo" className="w-32 h-32 mx-auto mb-2" />
+                    <img src={logo} alt="Logo" className="2xl:w-32 2xl:h-32 mx-auto mb-2" />
                     <p className="text-2xl font-bold">Joining as Patron</p>
                     <p className="mt-4 text-sm text-gray-600">Create Your Account</p>
                 </div>
-                <div className="mb-4">
+                <div className="2xl:mb-4">
                     <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
                         Full Name
                     </label>
@@ -23,7 +23,7 @@ const Pform = () => {
                         placeholder="Enter your Full Name"
                     />
                 </div>
-                <div className="mb-4">
+                <div className="2xl:mb-4">
                     <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
                         Email
                     </label>
@@ -34,7 +34,7 @@ const Pform = () => {
                         placeholder="Enter your email"
                     />
                 </div>
-                <div className="mb-4">
+                <div className="2xl:mb-4">
                     <label htmlFor="password" className="block text-gray-700 font-bold mb-2">
                         Password
                     </label>
@@ -45,7 +45,7 @@ const Pform = () => {
                         placeholder="Enter your password"
                     />
                 </div>
-                <div className="mb-4">
+                <div className="2xl:mb-4">
                     <label htmlFor="password" className="block text-gray-700 font-bold mb-2">
                         Confirm Password
                     </label>
@@ -56,7 +56,7 @@ const Pform = () => {
                         placeholder="Enter your Confirm Password"
                     />
                 </div>
-                <div className="mb-4">
+                <div className="2xl:mb-4">
                     <label htmlFor="password" className="block text-gray-700 font-bold mb-2">
                         Contact Number
                     </label>

@@ -5,10 +5,10 @@ import googleLogo from '../assets/logo.png';
 
 const Form = () => {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen">
-            <form className="px-6 py-8 bg-white rounded-[2rem] shadow-md">
+        <div className="flex flex-col items-center justify-center md:min-h-screen">
+            <form className="md:px-6 md:py-8 px-4 py-6 bg-white rounded-[2rem] shadow-md">
                 <div className="text-center mb-6">
-                    <img src={logo} alt="Logo" className="w-32 h-32 mx-auto mb-2" />
+                    <img src={logo} alt="Logo" className="md:w-32 md:h-32 mx-auto mb-2" />
                     <p className="text-2xl font-bold">Welcome Back!</p>
                     <p className="mt-4 text-sm text-gray-600">Login to your Account</p>
                 </div>
@@ -34,7 +34,7 @@ const Form = () => {
                         placeholder="Enter your password"
                     />
                 </div>
-                <div className="mt-4 flex items-center justify-between">
+                <div className="mt-4 flex items-center md:gap-0 gap-2 justify-between">
                     <label htmlFor="remember-me" className="flex items-center">
                         <input type="checkbox" id="remember-me" className="mr-2" />
                         <span className="text-gray-600">Remember me</span>
